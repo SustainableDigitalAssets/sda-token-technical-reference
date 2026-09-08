@@ -1,0 +1,297 @@
+{
+  "catalogVersion": "1.0.0",
+  "generated": "2026-09-08",
+  "issuer": {
+    "name": "Sustainable Digital Assets Inc."
+  },
+  "token": {
+    "name": "SDA Token",
+    "symbol": "SDA",
+    "mint": "SDAmxfpgaGmtxTqcTcvr4yi2kBwEFxTLF2XU4oLFw4b",
+    "dti": "ZHSMZL7F9",
+    "lei": "89450058XEES8WCSCQ03"
+  },
+  "repositories": [
+    {
+      "name": "sda-token-technical-reference",
+      "url": "https://github.com/SustainableDigitalAssets/sda-token-technical-reference",
+      "purpose": "Token identity, regulatory information, verification guidance and supply API documentation."
+    },
+    {
+      "name": "sda-energy-data",
+      "url": "https://github.com/SustainableDigitalAssets/sda-energy-data",
+      "purpose": "European grid emission factors, ENTSO-E mappings and glossary data."
+    },
+    {
+      "name": "sda-integration-cookbook",
+      "url": "https://github.com/SustainableDigitalAssets/sda-integration-cookbook",
+      "purpose": "Read-only TypeScript and Python integration examples."
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "technical-reference-readme",
+      "title": "SDA Token Technical Reference",
+      "repository": "sda-token-technical-reference",
+      "path": "README.md",
+      "url": "https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/README.md",
+      "mediaType": "text/markdown",
+      "version": "2026-09-08",
+      "authority": "explanatory",
+      "description": "Repository overview, canonical identity, references and repository map."
+    },
+    {
+      "id": "technical-reference-token",
+      "title": "SDA Token record",
+      "repository": "sda-token-technical-reference",
+      "path": "token.json",
+      "url": "https://raw.githubusercontent.com/SustainableDigitalAssets/sda-token-technical-reference/main/token.json",
+      "mediaType": "application/json",
+      "version": "unversioned",
+      "authority": "normative",
+      "description": "Machine-readable token identity and official references."
+    },
+    {
+      "id": "technical-reference-regulatory",
+      "title": "Regulatory identity",
+      "repository": "sda-token-technical-reference",
+      "path": "REGULATORY.md",
+      "url": "https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/REGULATORY.md",
+      "mediaType": "text/markdown",
+      "version": "2026-09-08",
+      "authority": "normative",
+      "description": "MiCA classification, issuer identity and primary regulatory evidence."
+    },
+    {
+      "id": "technical-reference-verification",
+      "title": "Verification guide",
+      "repository": "sda-token-technical-reference",
+      "path": "VERIFICATION.md",
+      "url": "https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/VERIFICATION.md",
+      "mediaType": "text/markdown",
+      "version": "2026-09-08",
+      "authority": "explanatory",
+      "description": "Steps for independently checking on-chain and regulatory values."
+    },
+    {
+      "id": "technical-reference-api",
+      "title": "Supply API reference",
+      "repository": "sda-token-technical-reference",
+      "path": "API.md",
+      "url": "https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/API.md",
+      "mediaType": "text/markdown",
+      "version": "2026-09-08",
+      "authority": "normative",
+      "description": "Supply endpoints, response shape and client handling guidance."
+    },
+    {
+      "id": "technical-reference-changelog",
+      "title": "Changelog",
+      "repository": "sda-token-technical-reference",
+      "path": "CHANGELOG.md",
+      "url": "https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/CHANGELOG.md",
+      "mediaType": "text/markdown",
+      "version": "2026-09-08",
+      "authority": "explanatory",
+      "description": "Dated changes grouped by artifact, including a separated internal historical record."
+    },
+    {
+      "id": "technical-reference-versioning",
+      "title": "Versioning policy",
+      "repository": "sda-token-technical-reference",
+      "path": "VERSIONING.md",
+      "url": "https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/VERSIONING.md",
+      "mediaType": "text/markdown",
+      "version": "2026-09-08",
+      "authority": "normative",
+      "description": "Versioning, deprecation, correction and independent-verification policy."
+    },
+    {
+      "id": "technical-reference-llms",
+      "title": "LLM content index",
+      "repository": "sda-token-technical-reference",
+      "path": "llms.txt",
+      "url": "https://raw.githubusercontent.com/SustainableDigitalAssets/sda-token-technical-reference/main/llms.txt",
+      "mediaType": "text/plain",
+      "version": "2026-09-08",
+      "authority": "generated",
+      "description": "Concise index of public repository content for language-model retrieval."
+    },
+    {
+      "id": "technical-reference-catalog",
+      "title": "Artifact catalogue",
+      "repository": "sda-token-technical-reference",
+      "path": "catalog.json",
+      "url": "https://raw.githubusercontent.com/SustainableDigitalAssets/sda-token-technical-reference/main/catalog.json",
+      "mediaType": "application/json",
+      "version": "1.0.0",
+      "authority": "generated",
+      "description": "Machine-readable catalogue of artifacts in the three public repositories."
+    },
+    {
+      "id": "energy-data-readme",
+      "title": "SDA Energy Data",
+      "repository": "sda-energy-data",
+      "path": "README.md",
+      "url": "https://github.com/SustainableDigitalAssets/sda-energy-data/blob/main/README.md",
+      "mediaType": "text/markdown",
+      "version": "2026-09-08",
+      "authority": "explanatory",
+      "description": "Repository overview and guide to the energy datasets."
+    },
+    {
+      "id": "energy-data-data-card",
+      "title": "Energy data card",
+      "repository": "sda-energy-data",
+      "path": "DATA_CARD.md",
+      "url": "https://github.com/SustainableDigitalAssets/sda-energy-data/blob/main/DATA_CARD.md",
+      "mediaType": "text/markdown",
+      "version": "2026-09-08",
+      "authority": "normative",
+      "description": "Dataset scope, provenance, methodology and limitations."
+    },
+    {
+      "id": "energy-data-emission-factors",
+      "title": "European grid emission factors",
+      "repository": "sda-energy-data",
+      "path": "data/emission-factors.json",
+      "url": "https://raw.githubusercontent.com/SustainableDigitalAssets/sda-energy-data/main/data/emission-factors.json",
+      "mediaType": "application/json",
+      "version": "1.0.0",
+      "authority": "generated",
+      "description": "Machine-readable European grid emission factors with source metadata."
+    },
+    {
+      "id": "energy-data-entsoe-zones",
+      "title": "ENTSO-E bidding zones",
+      "repository": "sda-energy-data",
+      "path": "data/entsoe-bidding-zones.json",
+      "url": "https://raw.githubusercontent.com/SustainableDigitalAssets/sda-energy-data/main/data/entsoe-bidding-zones.json",
+      "mediaType": "application/json",
+      "version": "1.0.0",
+      "authority": "normative",
+      "description": "Machine-readable ENTSO-E bidding-zone mappings."
+    },
+    {
+      "id": "energy-data-country-tso-map",
+      "title": "Country and TSO map",
+      "repository": "sda-energy-data",
+      "path": "data/country-tso-map.json",
+      "url": "https://raw.githubusercontent.com/SustainableDigitalAssets/sda-energy-data/main/data/country-tso-map.json",
+      "mediaType": "application/json",
+      "version": "1.0.0",
+      "authority": "normative",
+      "description": "Machine-readable country, transmission-system-operator and bidding-zone relationships."
+    },
+    {
+      "id": "energy-data-generation-categories",
+      "title": "Generation categories",
+      "repository": "sda-energy-data",
+      "path": "data/generation-categories.json",
+      "url": "https://raw.githubusercontent.com/SustainableDigitalAssets/sda-energy-data/main/data/generation-categories.json",
+      "mediaType": "application/json",
+      "version": "1.0.0",
+      "authority": "normative",
+      "description": "Normalized electricity-generation category definitions."
+    },
+    {
+      "id": "energy-data-glossary-json",
+      "title": "Energy data glossary",
+      "repository": "sda-energy-data",
+      "path": "data/glossary.json",
+      "url": "https://raw.githubusercontent.com/SustainableDigitalAssets/sda-energy-data/main/data/glossary.json",
+      "mediaType": "application/json",
+      "version": "1.0.0",
+      "authority": "normative",
+      "description": "Machine-readable definitions for energy and emissions terminology."
+    },
+    {
+      "id": "energy-data-glossary-md",
+      "title": "Energy data glossary document",
+      "repository": "sda-energy-data",
+      "path": "GLOSSARY.md",
+      "url": "https://github.com/SustainableDigitalAssets/sda-energy-data/blob/main/GLOSSARY.md",
+      "mediaType": "text/markdown",
+      "version": "2026-09-08",
+      "authority": "generated",
+      "description": "Human-readable rendering of the energy and emissions glossary."
+    },
+    {
+      "id": "cookbook-readme",
+      "title": "SDA Integration Cookbook",
+      "repository": "sda-integration-cookbook",
+      "path": "README.md",
+      "url": "https://github.com/SustainableDigitalAssets/sda-integration-cookbook/blob/main/README.md",
+      "mediaType": "text/markdown",
+      "version": "2026-09-08",
+      "authority": "explanatory",
+      "description": "Setup and usage guide for read-only integration examples."
+    },
+    {
+      "id": "cookbook-typescript-supply",
+      "title": "TypeScript supply example",
+      "repository": "sda-integration-cookbook",
+      "path": "typescript/src/supply.ts",
+      "url": "https://github.com/SustainableDigitalAssets/sda-integration-cookbook/blob/main/typescript/src/supply.ts",
+      "mediaType": "text/typescript",
+      "version": "2026-09-08",
+      "authority": "illustrative",
+      "description": "Read-only TypeScript example for retrieving SDA supply."
+    },
+    {
+      "id": "cookbook-typescript-mint-info",
+      "title": "TypeScript mint information example",
+      "repository": "sda-integration-cookbook",
+      "path": "typescript/src/mint-info.ts",
+      "url": "https://github.com/SustainableDigitalAssets/sda-integration-cookbook/blob/main/typescript/src/mint-info.ts",
+      "mediaType": "text/typescript",
+      "version": "2026-09-08",
+      "authority": "illustrative",
+      "description": "Read-only TypeScript example for retrieving and checking SDA mint information."
+    },
+    {
+      "id": "cookbook-typescript-balance",
+      "title": "TypeScript balance example",
+      "repository": "sda-integration-cookbook",
+      "path": "typescript/src/balance.ts",
+      "url": "https://github.com/SustainableDigitalAssets/sda-integration-cookbook/blob/main/typescript/src/balance.ts",
+      "mediaType": "text/typescript",
+      "version": "2026-09-08",
+      "authority": "illustrative",
+      "description": "Read-only TypeScript example for retrieving an SDA token-account balance."
+    },
+    {
+      "id": "cookbook-python-supply",
+      "title": "Python supply example",
+      "repository": "sda-integration-cookbook",
+      "path": "python/sda_cookbook/supply.py",
+      "url": "https://github.com/SustainableDigitalAssets/sda-integration-cookbook/blob/main/python/sda_cookbook/supply.py",
+      "mediaType": "text/x-python",
+      "version": "2026-09-08",
+      "authority": "illustrative",
+      "description": "Read-only Python example for retrieving SDA supply."
+    },
+    {
+      "id": "cookbook-python-mint-info",
+      "title": "Python mint information example",
+      "repository": "sda-integration-cookbook",
+      "path": "python/sda_cookbook/mint_info.py",
+      "url": "https://github.com/SustainableDigitalAssets/sda-integration-cookbook/blob/main/python/sda_cookbook/mint_info.py",
+      "mediaType": "text/x-python",
+      "version": "2026-09-08",
+      "authority": "illustrative",
+      "description": "Read-only Python example for retrieving and checking SDA mint information."
+    },
+    {
+      "id": "cookbook-python-balance",
+      "title": "Python balance example",
+      "repository": "sda-integration-cookbook",
+      "path": "python/sda_cookbook/balance.py",
+      "url": "https://github.com/SustainableDigitalAssets/sda-integration-cookbook/blob/main/python/sda_cookbook/balance.py",
+      "mediaType": "text/x-python",
+      "version": "2026-09-08",
+      "authority": "illustrative",
+      "description": "Read-only Python example for retrieving an SDA token-account balance."
+    }
+  ]
+}

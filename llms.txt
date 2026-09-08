@@ -1,0 +1,28 @@
+# SDA Token Technical Reference
+
+> Public technical reference for SDA Token identity, MiCA regulatory information, independent verification and supply API behavior.
+
+## Identity
+
+- [README](https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/README.md): Repository overview, canonical identity and repository map.
+- [Token record](https://raw.githubusercontent.com/SustainableDigitalAssets/sda-token-technical-reference/main/token.json): Machine-readable SDA Token identity and official references.
+- [Catalogue](https://raw.githubusercontent.com/SustainableDigitalAssets/sda-token-technical-reference/main/catalog.json): Machine-readable index of artifacts across the three public repositories.
+- [Changelog](https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/CHANGELOG.md): Dated public changes and a separately identified internal historical record.
+- [Versioning policy](https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/VERSIONING.md): Version, deprecation, correction and verification rules.
+
+## Regulatory
+
+- [Regulatory identity](https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/REGULATORY.md): MiCA classification, issuer identity, DTI, LEI and primary evidence.
+
+## Verification
+
+- [Verification guide](https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/VERIFICATION.md): Steps for checking on-chain and regulatory facts.
+
+## API
+
+- [Supply API reference](https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/API.md): Supply endpoints, response shape and client handling guidance.
+
+## Companion repositories
+
+- [SDA energy data](https://github.com/SustainableDigitalAssets/sda-energy-data): European grid emission factors, ENTSO-E mappings and glossary data.
+- [SDA integration cookbook](https://github.com/SustainableDigitalAssets/sda-integration-cookbook): Read-only TypeScript and Python examples for supply, mint information and balances.
