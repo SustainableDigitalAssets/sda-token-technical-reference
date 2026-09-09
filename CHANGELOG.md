@@ -1,6 +1,29 @@
 # Changelog
 
-All notable public changes to SDA Token reference artifacts are recorded here. Entries are grouped by artifact and follow Keep a Changelog principles.
+All notable public changes to SDA Token reference artefacts are recorded here. Entries are grouped by artefact and follow Keep a Changelog principles.
+
+## [2026-09-09]
+
+### Technical reference repository
+
+#### Fixed
+
+- Corrected regulatory authorisation wording and added the required clarification that white-paper notification is not approval.
+- Clarified the white-paper notification scope and technical-reference prose.
+- Added schema and observation-date metadata to `token.json` and corrected the token-program name.
+- Corrected the GLEIF LEI record link and applied British English throughout the reference documents.
+
+### Companion repositories and catalogue
+
+#### Added
+
+- Created `sda-energy-data` for European grid emission factors, ENTSO-E mappings and terminology.
+- Created `sda-integration-cookbook` for read-only TypeScript and Python integration examples.
+- Created the machine-readable cross-repository catalogue.
+
+#### Changed
+
+- Published catalogue version 1.0.1 with the corrected generation date and normalised repository labels.
 
 ## [2026-09-08]
 
@@ -15,13 +38,6 @@ All notable public changes to SDA Token reference artifacts are recorded here. E
 #### Fixed
 
 - Corrected the public organisation profile to describe SDA as a utility token supervised under MiCA and corrected its official references.
-
-### Companion repositories
-
-#### Added
-
-- Created `sda-energy-data` for European grid emission factors, ENTSO-E mappings and terminology.
-- Created `sda-integration-cookbook` for read-only TypeScript and Python integration examples.
 
 ## [2026-07-16]
 

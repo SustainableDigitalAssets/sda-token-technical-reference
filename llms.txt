@@ -1,12 +1,12 @@
 # SDA Token Technical Reference
 
-> Public technical reference for SDA Token identity, MiCA regulatory information, independent verification and supply API behavior.
+> Public technical reference for SDA Token identity, MiCA regulatory information, independent verification and supply API behaviour.
 
 ## Identity
 
 - [README](https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/README.md): Repository overview, canonical identity and repository map.
 - [Token record](https://raw.githubusercontent.com/SustainableDigitalAssets/sda-token-technical-reference/main/token.json): Machine-readable SDA Token identity and official references.
-- [Catalogue](https://raw.githubusercontent.com/SustainableDigitalAssets/sda-token-technical-reference/main/catalog.json): Machine-readable index of artifacts across the three public repositories.
+- [Catalogue](https://raw.githubusercontent.com/SustainableDigitalAssets/sda-token-technical-reference/main/catalog.json): Machine-readable index of artefacts across the three public repositories.
 - [Changelog](https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/CHANGELOG.md): Dated public changes and a separately identified internal historical record.
 - [Versioning policy](https://github.com/SustainableDigitalAssets/sda-token-technical-reference/blob/main/VERSIONING.md): Version, deprecation, correction and verification rules.
 
@@ -24,5 +24,5 @@
 
 ## Companion repositories
 
-- [SDA energy data](https://github.com/SustainableDigitalAssets/sda-energy-data): European grid emission factors, ENTSO-E mappings and glossary data.
-- [SDA integration cookbook](https://github.com/SustainableDigitalAssets/sda-integration-cookbook): Read-only TypeScript and Python examples for supply, mint information and balances.
+- [SDA Energy Data](https://github.com/SustainableDigitalAssets/sda-energy-data): European grid emission factors, ENTSO-E mappings and glossary data.
+- [SDA Integration Cookbook](https://github.com/SustainableDigitalAssets/sda-integration-cookbook): Read-only TypeScript and Python examples for supply, mint information and balances.

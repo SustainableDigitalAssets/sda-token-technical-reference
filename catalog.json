@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "1.0.0",
-  "generated": "2026-09-08",
+  "catalogVersion": "1.0.1",
+  "generated": "2026-09-09",
   "issuer": {
     "name": "Sustainable Digital Assets Inc."
   },
@@ -20,12 +20,12 @@
     {
       "name": "sda-energy-data",
       "url": "https://github.com/SustainableDigitalAssets/sda-energy-data",
-      "purpose": "European grid emission factors, ENTSO-E mappings and glossary data."
+      "purpose": "SDA Energy Data provides European grid emission factors, ENTSO-E mappings and glossary data."
     },
     {
       "name": "sda-integration-cookbook",
       "url": "https://github.com/SustainableDigitalAssets/sda-integration-cookbook",
-      "purpose": "Read-only TypeScript and Python integration examples."
+      "purpose": "SDA Integration Cookbook provides read-only TypeScript and Python integration examples."
     }
   ],
   "artifacts": [
@@ -93,7 +93,7 @@
       "mediaType": "text/markdown",
       "version": "2026-09-08",
       "authority": "explanatory",
-      "description": "Dated changes grouped by artifact, including a separated internal historical record."
+      "description": "Dated changes grouped by artefact, including a separated internal historical record."
     },
     {
       "id": "technical-reference-versioning",
@@ -119,14 +119,14 @@
     },
     {
       "id": "technical-reference-catalog",
-      "title": "Artifact catalogue",
+      "title": "Artefact catalogue",
       "repository": "sda-token-technical-reference",
       "path": "catalog.json",
       "url": "https://raw.githubusercontent.com/SustainableDigitalAssets/sda-token-technical-reference/main/catalog.json",
       "mediaType": "application/json",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "authority": "generated",
-      "description": "Machine-readable catalogue of artifacts in the three public repositories."
+      "description": "Machine-readable catalogue of artefacts in the three public repositories."
     },
     {
       "id": "energy-data-readme",
@@ -192,7 +192,7 @@
       "mediaType": "application/json",
       "version": "1.0.0",
       "authority": "normative",
-      "description": "Normalized electricity-generation category definitions."
+      "description": "Normalised electricity-generation category definitions."
     },
     {
       "id": "energy-data-glossary-json",

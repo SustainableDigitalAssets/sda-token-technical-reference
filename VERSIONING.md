@@ -10,7 +10,7 @@ Machine-readable contracts and schemas use semantic versioning in the form `MAJO
 - `MINOR` changes add backward-compatible fields or enumerated values.
 - `PATCH` changes correct data without changing the schema, or clarify machine-readable descriptions.
 
-`token.json` should gain a top-level `schemaVersion` field with an initial value of `1.0.0` in its next revision. The field versions the JSON contract, not the token, network, white paper or underlying facts. `catalog.json` declares its catalogue schema through `catalogVersion` and follows the same semantic-versioning rules.
+`token.json` declares its JSON contract through the top-level `schemaVersion` field, currently `1.1.0`. The field versions the JSON contract, not the token, network, white paper or underlying facts. `catalog.json` declares its catalogue schema through `catalogVersion` and follows the same semantic-versioning rules.
 
 ## Documents and facts
 
@@ -24,7 +24,7 @@ Facts such as the mint, token program, decimal precision, authorities, DTI, LEI 
 
 Deprecated fields remain available for at least one minor schema version when doing so does not preserve an unsafe or materially incorrect value. They must be marked as deprecated, identify the replacement and state the intended removal version or date.
 
-Corrections are never silent. Every correction must be described in `CHANGELOG.md` with its date, affected artifact and source basis. A superseded value remains in the changelog for auditability, except where publication would expose private, security-sensitive or otherwise non-public information. Current files contain only the corrected value.
+Corrections are never silent. Every correction must be described in `CHANGELOG.md` with its date, affected artefact and source basis. A superseded value remains in the changelog for auditability, except where publication would expose private, security-sensitive or otherwise non-public information. Current files contain only the corrected value.
 
 ## Companion repositories
 
@@ -36,5 +36,5 @@ Do not trust a repository value solely because it appears in a file here.
 
 1. Confirm the mint, token program, decimals, supply and revoked mint and freeze authorities against [Solscan](https://solscan.io/token/SDAmxfpgaGmtxTqcTcvr4yi2kBwEFxTLF2XU4oLFw4b) or a Solana mainnet query implemented from the [Solana documentation](https://solana.com/docs).
 2. Confirm the issuer, DTI, classification, competent authority, document version and regulatory scope in the [current MiCA white paper](https://sdafintech.com/legal/mica/whitepaper/SDA-Token-MiCA-Whitepaper-v1.3-2026_07_16.xhtml).
-3. Confirm the issuer LEI through the official [GLEIF LEI Search](https://www.gleif.org/en/lei-search).
+3. Confirm the issuer LEI through the [GLEIF LEI record](https://search.gleif.org/#/record/89450058XEES8WCSCQ03).
 4. Record the source, retrieval date and discrepancy before proposing a correction.

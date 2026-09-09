@@ -1,6 +1,6 @@
 # SDA Token Technical Reference
 
-SDA Token (SDA) is a Solana-mainnet utility token issued by Sustainable Digital Assets Inc. It uses the Solana SPL Token-2022 program. SDA is not a security token and is supervised under MiCA as a Title II crypto-asset other than an ART or EMT.
+SDA Token (SDA) is a utility token on Solana mainnet issued by Sustainable Digital Assets Inc. It uses the Solana SPL Token-2022 program. SDA is not a security token and is supervised under MiCA as a Title II crypto-asset other than an ART or EMT.
 
 ## Canonical identity
 
@@ -24,16 +24,16 @@ Current utility comprises platform access, project data and analytics, non-finan
 - [`CHANGELOG.md`](CHANGELOG.md): dated public changes and separated historical internal records.
 - [`VERSIONING.md`](VERSIONING.md): versioning, deprecation and correction policy.
 - [`llms.txt`](llms.txt): concise content index for language-model retrieval.
-- [`catalog.json`](catalog.json): machine-readable catalogue of artifacts across the three public repositories.
+- [`catalog.json`](catalog.json): machine-readable catalogue of artefacts across the three public repositories.
 
 ## Companion repositories
 
-- [sda-energy-data](https://github.com/SustainableDigitalAssets/sda-energy-data) provides European grid emission factors, ENTSO-E mappings and a glossary.
-- [sda-integration-cookbook](https://github.com/SustainableDigitalAssets/sda-integration-cookbook) provides read-only TypeScript and Python examples for supply, mint information and balances.
+- [SDA Energy Data](https://github.com/SustainableDigitalAssets/sda-energy-data) provides European grid emission factors, ENTSO-E mappings and a glossary.
+- [SDA Integration Cookbook](https://github.com/SustainableDigitalAssets/sda-integration-cookbook) provides read-only TypeScript and Python examples for supply, mint information and balances.
 
 ## References
 
-The current white paper is version 1.3, notified via FIN-FSA and published on 2026-07-16 in inline XBRL for 29 EEA states.
+The current white paper is version 1.3, notified via FIN-FSA for 29 EEA states and published on 2026-07-16 in inline XBRL.
 
 - [Machine-readable token record](token.json)
 - [Regulatory identity](REGULATORY.md)
